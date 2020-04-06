@@ -1,0 +1,36 @@
+.event_select_image {
+    width: calc(50% - 0.2em);
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    cursor: pointer;
+}
+.data_input_container {
+    display: flex;
+    flex-direction: column;
+}
+.data_input_container > * {
+    margin: 1em !important;
+    width: 90%;
+}
+.app_container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.generator_content {
+    margin-top: 5em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.data_option_container > * {
+    width: 100%;
+}
+.ethic_img {
+    width: 1em;
+}
+.generate_button {
+    margin-top: 5em !important;
+    width: 50%;
+}

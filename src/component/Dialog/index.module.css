@@ -1,0 +1,77 @@
+.event_dialog {
+    color: white;
+    width: 490px;
+    font-size: 0px;
+}
+
+.event_img {
+    position: absolute;
+    z-index: 10;
+    left: 19px;
+    top: 55px;
+}
+
+.event_title {
+    padding-top: 0.5em;
+    padding-left: 1em;
+    z-index: 100;
+    position: absolute;
+    font-size: initial;
+}
+
+.event_img_bg {
+    z-index: 11;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.event_header_container {
+    position: relative;
+}
+
+.event_content_container {
+    white-space: pre-line;
+    font-size: initial;
+    padding: 0.5em;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(135, 255, 207);
+    border: 1px solid #14796c;
+    background-color: rgb(30, 41, 37);
+}
+
+.event_body {
+}
+
+.options_container {
+    padding-top: 10px;
+}
+
+.event_option_content {
+    font-size: initial;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    border: 1px solid #14796c;
+    background: rgba(20, 121, 108, 0.5);
+}
+
+.event_option_container {
+    margin-top: 10px;
+    position: relative;
+}
+
+.event_dialog_bottom {
+    font-size: initial;
+    height: 25px;
+    width: 100%;
+    object-fit: fill;
+}
+
+.event_option_ethics {
+    left: 10px;
+    position: absolute;
+    width: 1.5em;
+    font-size: initial;
+}
